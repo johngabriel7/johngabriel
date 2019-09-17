@@ -5,7 +5,7 @@
         <route id="simple-route">
             <from id="route-timer" uri="timer://foo?period=10000"/>
             <setBody id="route-setBody">
-                <simple>Hello World from john gabriel</simple>
+                <simple>Hello World from john gabriel new</simple>
             </setBody>
             <log id="route-log" message=">>> ${body}"/>
         </route>
